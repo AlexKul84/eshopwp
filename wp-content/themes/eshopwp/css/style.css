@@ -1,0 +1,439 @@
+body{
+	background: #fff;
+	font-family: Ubuntu, pt sans;
+	font-size: 18px;
+	font-weight: 400;
+	color: #ff4e00;
+	min-width: 320px;
+}
+
+a{
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+
+a:hover{
+	color: #ff4e00;
+}
+
+h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #fff;
+	margin:0;
+	/* text-shadow: 1px 0 1px #000; */
+}
+
+h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	color:#ff4e00;
+	margin:0;
+	margin-bottom: 60px;
+}
+
+h3{
+	font-size: 24px;
+	margin:0;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+section{
+	position: relative;
+	/* margin-bottom: 40px; */
+}
+
+.item{
+	margin-bottom: 60px;
+}
+
+/*header*/
+
+.section-navbar nav{
+	border-radius: 0;
+	background-color: rgba(4, 6, 55, 0.3);
+	/* background: #040637;
+	opacity: .3; */
+	margin-bottom: 0;
+	border: none;
+	padding: 0 40px;
+}
+
+.section-navbar .navbar-toggle{
+	margin-top: 15px;
+	margin-bottom: 12px;
+}
+
+.section-navbar .navbar-brand{
+	padding: 20px 15px;
+}
+
+.section-navbar .navbar-default .navbar-nav>li>a{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.section-navbar .navbar-default .navbar-nav>li>a:hover{
+	color: #ff4e00;
+	text-shadow: none;
+}
+
+.section-navbar .navbar-default .nav>li>a{
+	padding: 23px 10px;
+}
+
+#header{
+	background: url('../images/main-photo-gauss1.jpg') center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	min-height: 400px;
+	/* margin-bottom: 100px; */
+}
+
+.section-table{
+	display: table;
+	width: 100%;
+	height: 90%;
+}
+
+.section-row{
+	display: table-row;
+}
+
+.section-cell{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.section-center{
+	max-width: 1010px;
+	display: inline-block;
+}
+
+#header h1 {
+	margin-bottom: 60px;
+}
+
+#header h2 {
+	color:#fff;
+}
+
+.btn{
+	padding: 5px 15px;
+	font-size: 18px;
+	font-family: pt sans, sans-serif;
+	font-weight: 700;
+/* 	font-weight: 300;
+	text-transform: uppercase; */
+	background: #ff4e00;
+	border:none;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 0 #551a00;
+}
+
+.btn i{
+	padding-left: 10px;
+}
+
+.btn-primary:active:focus, .btn-primary:active:hover{
+	background: #ff7639;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 0 #551a00;
+}
+
+.btn:hover,.btn:active,/* .btn:visited, */.btn:focus{
+	background: #ff7639;
+	border: none;
+}
+
+/*end header*/
+
+/*triggers*/
+
+#triggers{
+	padding-top: 100px;
+}
+
+#triggers .item>div{
+	height: 130px;
+} 
+
+/*end triggers*/
+
+/*category*/
+
+#category{
+	padding-top: 60px;
+}
+
+#category h3{
+	margin-top: 20px;
+}
+
+#category h3 a{
+	color: #ff4e00;
+}
+
+#category .item>div:hover img{
+	opacity: .5;
+}
+
+#category .item>div:hover h3 a:hover{
+	text-decoration: none;
+}
+
+/*end category*/
+
+/*howtowork*/
+
+#howtowork{
+	background: #ff4e00;
+	/* padding-top: 60px; */
+	margin-top: 60px;
+	padding-bottom: 20px;
+}
+
+#howtowork h2{
+	margin-top: 100px;
+}
+
+#howtowork h3{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#howtowork h3, #howtowork h2{
+	color: #fff;
+}
+
+.arrow{
+	background: url('../images/arrow1.png') center center no-repeat;
+	height: 150px;
+}
+
+/*end howtowork*/
+
+/*reviews*/
+
+#reviews{
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+#reviews .item{
+	margin-bottom: 60px;
+}
+
+#reviews h3{
+	margin-top: 40px;
+}
+
+.item>div{
+	position: relative;
+}
+
+.front{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	left: 50%;
+	margin-left: -70px;
+}
+
+.back{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	border-radius: 50%;
+	opacity: 0;
+	background: #ff7639;
+}
+
+.item i{
+	line-height: 150px;
+	font-size: 30px;
+	color: #fff;
+}
+
+#reviews .item>div,#reviews .item h3,#reviews .item p:hover{
+	cursor: pointer;
+}
+
+.item>div:hover .front{
+	opacity: 0.1;
+}
+
+.item>div:hover .back{
+	opacity: 1;
+}
+
+/*end reviews*/
+
+/*footer*/
+
+#footer{
+	background: #05096b;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-bottom: 0;
+}
+
+#footer .item{
+	margin-bottom: 0;
+	color: #fff;
+}
+
+#footer .section-btn{
+	margin: 0 auto;
+	max-width: 190px;
+}
+
+#footer .item p{
+	max-width: 190px;
+	margin: 0 auto 30px auto;
+}
+
+#footer .item p.contact{
+	margin-bottom: 0;
+	padding-left: 30px;
+}
+
+.phone{
+	background: url('../images/phone.png') 4px center no-repeat;
+}
+
+.mail{
+	background: url('../images/mail.png') left 6px no-repeat;
+}
+
+.sosial{
+	width: 80px;
+	padding-right: 50px;
+	margin: 10px auto 0 auto;
+}
+
+.vk, .ok{
+	display: inline-block;
+}
+
+.vk{
+	width: 17px;
+	height: 22px;
+	background: url('../images/vk.png') center 2px no-repeat;
+}
+
+.ok{
+    width: 14px;
+    height: 24px;
+	background: url('../images/ok.png') center center no-repeat;
+}
+
+.vk:hover{
+	width: 17px;
+	height: 22px;
+	background: url('../images/vk-hover.png') center 2px no-repeat;
+}
+
+.ok:hover{
+    width: 14px;
+    height: 24px;
+	background: url('../images/ok-hover.png') center center no-repeat;
+}
+
+/*end footer*/
+
+/*copyright*/
+
+#copyright{
+	padding: 20px 60px;
+	background: #04051f;
+	margin-bottom: 0;
+}
+
+#copyright p {
+	color: #fff;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+/*end copyright*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.section-center{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.arrow{
+		display: none;
+	}
+	#howtowork{
+		padding-bottom: 40px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body {
+		font-size: 14px;
+	}
+	h1{
+		font-size: 36px;
+	}
+
+	#header h1{
+		margin-bottom: 30px;
+	}
+
+	#header h2{
+		margin-bottom: 30px;
+	}
+	#footer .item p.contact{
+		font-size: 18px;
+	}
+	#footer .section-btn{
+		margin-bottom: 60px;
+	}
+
+	#footer .item p{
+		max-width: 190px;
+		margin: 0 auto 20px auto;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	h1{
+		font-size: 24px;
+	}
+
+	h2{
+		font-size: 18px;
+	}
+
+	h3{
+		font-size: 14px;
+	}
+	#header h1{
+		margin-bottom: 20px;
+	}
+	#header h2{
+		margin-bottom: 20px;
+	}
+	.section-navbar nav {
+	    padding: 0 20px;
+	}
+}
